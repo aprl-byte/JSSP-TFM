@@ -1,0 +1,76 @@
+{
+ "bks": 55.0,
+ "rules": {
+  "FIFO": {
+   "makespan": 65.0,
+   "gap_pct": 18.2,
+   "decisions": 18,
+   "utilization": 0.5051282051282051,
+   "mean_flow": 54.833333333333336,
+   "mean_wait_op": 3.6666666666666665,
+   "max_wait_machine": 9.333333333333334
+  },
+  "SPT": {
+   "makespan": 94.0,
+   "gap_pct": 70.9,
+   "decisions": 14,
+   "utilization": 0.34929078014184395,
+   "mean_flow": 57.666666666666664,
+   "mean_wait_op": 4.138888888888889,
+   "max_wait_machine": 13.5
+  },
+  "LPT": {
+   "makespan": 86.0,
+   "gap_pct": 56.4,
+   "decisions": 19,
+   "utilization": 0.3817829457364341,
+   "mean_flow": 67.0,
+   "mean_wait_op": 5.694444444444445,
+   "max_wait_machine": 14.833333333333334
+  },
+  "MWKR": {
+   "makespan": 67.0,
+   "gap_pct": 21.8,
+   "decisions": 20,
+   "utilization": 0.4900497512437811,
+   "mean_flow": 57.5,
+   "mean_wait_op": 4.111111111111111,
+   "max_wait_machine": 8.0
+  },
+  "LWKR": {
+   "makespan": 96.0,
+   "gap_pct": 74.5,
+   "decisions": 15,
+   "utilization": 0.3420138888888889,
+   "mean_flow": 52.5,
+   "mean_wait_op": 3.2777777777777777,
+   "max_wait_machine": 5.333333333333333
+  },
+  "MOPNR": {
+   "makespan": 60.0,
+   "gap_pct": 9.1,
+   "decisions": 19,
+   "utilization": 0.5472222222222223,
+   "mean_flow": 54.333333333333336,
+   "mean_wait_op": 3.5833333333333335,
+   "max_wait_machine": 6.833333333333333
+  },
+  "FIFO_est": {
+   "makespan": 68.0,
+   "gap_pct": 23.6,
+   "decisions": 15,
+   "utilization": 0.48284313725490197,
+   "mean_flow": 54.833333333333336,
+   "mean_wait_op": 3.6666666666666665,
+   "max_wait_machine": 9.166666666666666
+  }
+ },
+ "cpsat": {
+  "makespan": 55.0,
+  "optimal": true,
+  "seconds": 0.018,
+  "replay_makespan": 55.0,
+  "n_decisions": 19,
+  "n_rows": 42
+ }
+}

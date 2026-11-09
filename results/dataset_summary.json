@@ -1,0 +1,38 @@
+{
+ "features": [
+  "p_rel_C",
+  "p_rel_inst",
+  "rw_rel_C",
+  "rw_rel_lb",
+  "rops_rel",
+  "wait_rel",
+  "est_gap_rel",
+  "next_p_rel",
+  "next_load_rel",
+  "rank_rw",
+  "rank_p",
+  "is_last",
+  "C_size_rel",
+  "progress"
+ ],
+ "train": {
+  "instances": 900,
+  "decisions": 48484,
+  "rows": 126949,
+  "positive_rate": 0.38191714783101877,
+  "ref_optimal_pct": 87.44444444444444,
+  "replay_exact_pct": 93.55555555555556,
+  "replay_mean_excess_pct": 0.16675399007176522,
+  "replay_max_excess_pct": 9.278350515463906
+ },
+ "val": {
+  "instances": 120,
+  "decisions": 6741,
+  "rows": 17826,
+  "positive_rate": 0.37815550319757657,
+  "ref_optimal_pct": 81.66666666666667,
+  "replay_exact_pct": 95.0,
+  "replay_mean_excess_pct": 0.09490737136314163,
+  "replay_max_excess_pct": 7.88704965920155
+ }
+}
